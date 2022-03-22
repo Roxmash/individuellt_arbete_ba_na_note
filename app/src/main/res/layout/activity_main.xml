@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Controller.MainActivity">
+
+    <!-- Header Layout -->
+
+    <ImageView
+        android:id="@+id/iv_banana_background"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/banana_main_size"
+        android:layout_marginEnd="@dimen/banana_margin_sub_30"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/banana_main" />
+
+    <!-- Saved note List -->
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/edit_note_layout_margin"
+        android:background="@drawable/frame_bg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!-- Information icon -->
+
+        <ImageView
+            android:id="@+id/iv_info"
+            android:layout_width="@dimen/main_activity_icon_size"
+            android:layout_height="@dimen/main_activity_icon_size"
+            android:layout_margin="@dimen/main_activity_layout_margin"
+            android:background="@drawable/circle_bg"
+            android:padding="@dimen/main_activity_information_icon_padding"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_info" />
+
+        <!-- App title -->
+
+        <TextView
+            android:id="@+id/tv_new_note"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/main_activity_layout_margin"
+            android:gravity="center"
+            android:text="@string/main_activity_title"
+            android:fontFamily="@font/convergence"
+            android:textAlignment="center"
+            android:textSize="@dimen/main_activity_title_font_size"
+            app:layout_constraintBottom_toBottomOf="@+id/iv_info"
+            app:layout_constraintEnd_toStartOf="@+id/iv_new_note"
+            app:layout_constraintStart_toEndOf="@+id/iv_info"
+            app:layout_constraintTop_toTopOf="@+id/iv_info" />
+
+        <!-- New_note icon -->
+
+        <ImageView
+            android:id="@+id/iv_new_note"
+            android:layout_width="@dimen/main_activity_icon_size"
+            android:layout_height="@dimen/main_activity_icon_size"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/main_activity_layout_margin"
+            android:background="@drawable/circle_bg"
+            app:layout_constraintBottom_toBottomOf="@+id/iv_info"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/iv_info"
+            app:srcCompat="@drawable/ic_add_new_note" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!-- ListView -->
+
+        <ListView
+            android:id="@+id/list_view_saved_notes"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_margin="@dimen/main_activity_layout_margin"
+            android:background="@drawable/frame_bg"
+            android:padding="@dimen/main_activity_listview_padding"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayout"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

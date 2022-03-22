@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@dimen/popup_window_layout_size"
+    android:layout_height="@dimen/popup_window_layout_size"
+    android:layout_gravity="center_horizontal"
+    android:layout_margin="@dimen/popup_window_layout_margin"
+    android:background="@drawable/info_bg">
+
+    <!-- exit_window icon -->
+
+    <ImageView
+        android:id="@+id/iv_popup_close_icon"
+        android:layout_width="@dimen/popup_window_icon_size"
+        android:layout_height="@dimen/popup_window_icon_size"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/popup_window_info_margin"
+        android:background="@drawable/circle_bg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_close" />
+
+    <!-- title -->
+
+    <TextView
+        android:id="@+id/tv_popup_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/convergence"
+        android:layout_marginStart="@dimen/popup_window_info_margin"
+        android:layout_marginTop="@dimen/popup_window_info_margin"
+        android:layout_marginEnd="@dimen/popup_window_info_margin"
+        android:text="@string/popup_title"
+        android:textAlignment="center"
+        android:textSize="@dimen/popup_window_title_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_popup_close_icon" />
+
+    <!--  2 dot symbols -->
+
+    <ImageView
+        android:id="@+id/iv_popup_dot_one"
+        android:layout_width="@dimen/popup_window_dot_size"
+        android:layout_height="@dimen/popup_window_dot_size"
+        android:layout_marginStart="@dimen/popup_window_info_margin"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_popup_info_one"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tv_popup_info_one"
+        app:srcCompat="@drawable/circle_bg" />
+
+    <ImageView
+        android:id="@+id/iv_popup_dot_two"
+        android:layout_width="@dimen/popup_window_dot_size"
+        android:layout_height="@dimen/popup_window_dot_size"
+        android:layout_marginStart="@dimen/popup_window_info_margin"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_popup_info_two"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tv_popup_info_two"
+        app:srcCompat="@drawable/circle_bg" />
+
+    <!-- Text 1 information -->
+
+    <TextView
+        android:id="@+id/tv_popup_info_one"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/convergence"
+        android:layout_marginStart="@dimen/popup_window_info_margin"
+        android:layout_marginTop="@dimen/popup_window_info_margin_to_title"
+        android:layout_marginEnd="@dimen/popup_window_info_margin"
+        android:text="@string/popup_delete_note_info"
+        android:textSize="@dimen/popup_window_font_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/iv_popup_dot_one"
+        app:layout_constraintTop_toBottomOf="@+id/tv_popup_title" />
+
+    <!-- Text 2 information -->
+
+    <TextView
+        android:id="@+id/tv_popup_info_two"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/convergence"
+        android:layout_marginStart="@dimen/popup_window_info_margin"
+        android:layout_marginTop="@dimen/popup_window_info_margin"
+        android:layout_marginEnd="@dimen/popup_window_info_margin"
+        android:text="@string/popup_infotxt_keke"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/iv_popup_dot_two"
+        app:layout_constraintTop_toBottomOf="@+id/tv_popup_info_one" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

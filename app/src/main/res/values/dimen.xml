@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- main_activity - Dimens -->
+
+    <dimen name="main_activity_icon_size">50dp</dimen>
+    <dimen name="main_activity_title_font_size">30sp</dimen>
+    <dimen name="main_activity_layout_margin">10dp</dimen>
+    <dimen name="main_activity_listview_padding">10dp</dimen>
+    <dimen name="main_activity_information_icon_padding">5dp</dimen>
+
+    <!-- edit_note - Dimens -->
+
+    <dimen name="edit_note_icon_size">50dp</dimen>
+    <dimen name="edit_note_layout_margin">10dp</dimen>
+    <dimen name="edit_note_text_padding">10dp</dimen>
+    <dimen name="edit_note_save_icon_padding">3dp</dimen>
+    <dimen name="edit_note_title_size">22sp</dimen>
+    <dimen name="edit_note_text_size">18sp</dimen>
+
+    <!-- popup_window - Dimens -->
+
+    <dimen name="popup_window_layout_size">300dp</dimen>
+    <dimen name="popup_window_layout_margin">100dp</dimen>
+    <dimen name="popup_window_icon_size">30dp</dimen>
+    <dimen name="popup_window_title_size">22sp</dimen>
+    <dimen name="popup_window_font_size">16sp</dimen>
+    <dimen name="popup_window_info_margin">10dp</dimen>
+    <dimen name="popup_window_info_margin_to_title">30dp</dimen>
+    <dimen name="popup_window_dot_size">10dp</dimen>
+
+    <!-- background - Dimens -->
+
+    <dimen name="frame_stroke_width">3dp</dimen>
+    <dimen name="frame_stroke_corners">10dp</dimen>
+    <dimen name="circle_corners">30dp</dimen>
+
+    <!-- Banana - Dimens -->
+
+    <dimen name="banana_main_size">400dp</dimen>
+    <dimen name="banana_margin_280">280dp</dimen>
+    <dimen name="banana_margin_220">220dp</dimen>
+    <dimen name="banana_margin_160">160dp</dimen>
+    <dimen name="banana_margin_150">150dp</dimen>
+    <dimen name="banana_margin_120">120dp</dimen>
+    <dimen name="banana_margin_100">100dp</dimen>
+    <dimen name="banana_edit_size_100">100dp</dimen>
+    <dimen name="banana_margin_90">90dp</dimen>
+    <dimen name="banana_margin_70">70dp</dimen>
+    <dimen name="banana_margin_50">50dp</dimen>
+    <dimen name="banana_margin_40">40dp</dimen>
+    <dimen name="banana_margin_30">30dp</dimen>
+    <dimen name="banana_margin_20">20dp</dimen>
+    <dimen name="banana_margin_sub_30">-30dp</dimen>
+
+</resources>

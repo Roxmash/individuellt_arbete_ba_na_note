@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Controller.EditNote">
+
+<!-- Lots n lots of bananas.. -->
+
+    <!-- Banana one -->
+
+    <ImageView
+        android:id="@+id/iv_banana_bg_one"
+        android:layout_width="@dimen/banana_edit_size_100"
+        android:layout_height="@dimen/banana_edit_size_100"
+        android:layout_marginStart="@dimen/banana_margin_70"
+        android:layout_marginTop="@dimen/banana_margin_30"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/et_edittext"
+        app:srcCompat="@drawable/banana_3_edit_note" />
+
+    <!-- Banana two -->
+
+    <ImageView
+        android:id="@+id/iv_banana_bg_two"
+        android:layout_width="@dimen/banana_edit_size_100"
+        android:layout_height="@dimen/banana_edit_size_100"
+        android:layout_marginTop="@dimen/banana_margin_20"
+        android:layout_marginEnd="@dimen/banana_margin_30"
+        app:layout_constraintEnd_toEndOf="@+id/et_edittext"
+        app:layout_constraintTop_toTopOf="@+id/et_edittext"
+        app:srcCompat="@drawable/banana_5_edit_note" />
+
+    <!-- Banana three -->
+
+    <ImageView
+        android:id="@+id/iv_banana_bg_three"
+        android:layout_width="@dimen/banana_edit_size_100"
+        android:layout_height="@dimen/banana_edit_size_100"
+        android:layout_marginStart="@dimen/banana_margin_30"
+        android:layout_marginTop="@dimen/banana_margin_150"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/et_edittext"
+        app:srcCompat="@drawable/banana_1_edit_note" />
+
+    <!-- Banana four -->
+
+    <ImageView
+        android:id="@+id/iv_banana_bg_four"
+        android:layout_width="@dimen/banana_edit_size_100"
+        android:layout_height="@dimen/banana_edit_size_100"
+        android:layout_marginTop="@dimen/banana_margin_120"
+        android:layout_marginEnd="@dimen/banana_margin_100"
+        app:layout_constraintEnd_toEndOf="@+id/et_edittext"
+        app:layout_constraintTop_toTopOf="@+id/et_edittext"
+        app:srcCompat="@drawable/banana_4_edit_note" />
+
+    <!-- Banana five -->
+
+    <ImageView
+        android:id="@+id/iv_banana_bg_five"
+        android:layout_width="@dimen/banana_edit_size_100"
+        android:layout_height="@dimen/banana_edit_size_100"
+        android:layout_marginStart="@dimen/banana_margin_120"
+        android:layout_marginBottom="@dimen/banana_margin_280"
+        app:layout_constraintBottom_toBottomOf="@+id/et_edittext"
+        app:layout_constraintStart_toStartOf="@+id/et_edittext"
+        app:srcCompat="@drawable/banana_2_edit_note" />
+
+    <!-- Banana six -->
+
+    <ImageView
+        android:id="@+id/iv_banana_bg_six"
+        android:layout_width="@dimen/banana_edit_size_100"
+        android:layout_height="@dimen/banana_edit_size_100"
+        android:layout_marginEnd="@dimen/banana_margin_50"
+        android:layout_marginBottom="@dimen/banana_margin_220"
+        app:layout_constraintBottom_toBottomOf="@+id/et_edittext"
+        app:layout_constraintEnd_toEndOf="@+id/et_edittext"
+        app:srcCompat="@drawable/banana_1_edit_note" />
+
+    <!-- Banana seven -->
+
+    <ImageView
+        android:id="@+id/iv_banana_bg_seven"
+        android:layout_width="@dimen/banana_edit_size_100"
+        android:layout_height="@dimen/banana_edit_size_100"
+        android:layout_marginStart="@dimen/banana_margin_50"
+        android:layout_marginBottom="@dimen/banana_margin_160"
+        app:layout_constraintBottom_toBottomOf="@+id/et_edittext"
+        app:layout_constraintStart_toStartOf="@+id/et_edittext"
+        app:srcCompat="@drawable/banana_5_edit_note" />
+
+    <!-- Banana eight -->
+
+    <ImageView
+        android:id="@+id/iv_banana_bg_eight"
+        android:layout_width="@dimen/banana_edit_size_100"
+        android:layout_height="@dimen/banana_edit_size_100"
+        android:layout_marginEnd="@dimen/banana_margin_120"
+        android:layout_marginBottom="@dimen/banana_margin_90"
+        app:layout_constraintBottom_toBottomOf="@+id/et_edittext"
+        app:layout_constraintEnd_toEndOf="@+id/et_edittext"
+        app:srcCompat="@drawable/banana_3_edit_note" />
+
+    <!-- Banana nine -->
+
+    <ImageView
+        android:id="@+id/iv_banana_bg_nine"
+        android:layout_width="@dimen/banana_edit_size_100"
+        android:layout_height="@dimen/banana_edit_size_100"
+        android:layout_marginStart="@dimen/banana_margin_30"
+        android:layout_marginBottom="@dimen/banana_margin_40"
+        app:layout_constraintBottom_toBottomOf="@+id/et_edittext"
+        app:layout_constraintStart_toStartOf="@+id/et_edittext"
+        app:srcCompat="@drawable/banana_4_edit_note" />
+
+    <!-- Banana ten -->
+
+    <ImageView
+        android:id="@+id/iv_banana_bg_ten"
+        android:layout_width="@dimen/banana_edit_size_100"
+        android:layout_height="@dimen/banana_edit_size_100"
+        android:layout_marginEnd="@dimen/banana_margin_30"
+        android:layout_marginBottom="@dimen/banana_margin_30"
+        app:layout_constraintBottom_toBottomOf="@+id/et_edittext"
+        app:layout_constraintEnd_toEndOf="@+id/et_edittext"
+        app:srcCompat="@drawable/banana_2_edit_note" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/edit_note_layout_margin"
+        android:background="@drawable/frame_bg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!-- Return icon -->
+
+        <ImageView
+            android:id="@+id/iv_return"
+            android:layout_width="@dimen/edit_note_icon_size"
+            android:layout_height="@dimen/edit_note_icon_size"
+            android:layout_margin="@dimen/edit_note_layout_margin"
+            android:background="@drawable/circle_bg"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_return" />
+
+        <!-- Title input -->
+
+        <EditText
+            android:id="@+id/et_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/edit_note_layout_margin"
+            android:fontFamily="@font/convergence"
+            android:hint="@string/edit_note_title_hint"
+            android:inputType="textNoSuggestions"
+            android:lines="1"
+            android:textSize="@dimen/edit_note_title_size"
+            app:layout_constraintBottom_toBottomOf="@+id/iv_return"
+            app:layout_constraintEnd_toStartOf="@+id/iv_save_note"
+            app:layout_constraintStart_toEndOf="@+id/iv_return"
+            app:layout_constraintTop_toTopOf="@+id/iv_return" />
+
+        <!-- Save icon -->
+
+        <ImageView
+            android:id="@+id/iv_save_note"
+            android:layout_width="@dimen/edit_note_icon_size"
+            android:layout_height="@dimen/edit_note_icon_size"
+            android:layout_margin="@dimen/edit_note_layout_margin"
+            android:background="@drawable/circle_bg"
+            android:padding="@dimen/edit_note_save_icon_padding"
+            app:layout_constraintBottom_toBottomOf="@+id/iv_return"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/iv_return"
+            app:srcCompat="@drawable/ic_save" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!-- Text input -->
+
+    <EditText
+        android:id="@+id/et_edittext"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/edit_note_layout_margin"
+        android:background="@drawable/frame_bg"
+        android:fontFamily="@font/convergence"
+        android:textSize="@dimen/edit_note_text_size"
+        android:gravity="top"
+        android:hint="@string/edit_note_text_hint"
+        android:inputType="textMultiLine"
+        android:padding="@dimen/edit_note_text_padding"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

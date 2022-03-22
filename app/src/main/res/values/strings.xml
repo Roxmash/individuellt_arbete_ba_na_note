@@ -1,0 +1,30 @@
+<resources>
+
+    <string name="app_name">individuellt_arbete_note_pad</string>
+
+    <!-- main_activity - Strings -->
+
+   <string name="main_activity_title">Ba Na Notes</string>
+
+    <!-- edit_note - Strings -->
+
+    <string name="edit_note_title_hint">Enter a title:</string>
+    <string name="edit_note_text_hint">Edit your note here:</string>
+
+    <!-- popup_window - Strings -->
+
+    <string name="popup_title">Functions and info:</string>
+    <string name="popup_delete_note_info">You can delete a note if you \n press + hold.
+        try it, i dear you, mwahahaha!!..</string>
+    <string name="popup_delete_msg">You are about to delete your note, do you wish to continue?</string>
+    <string name="popup_infotxt_keke">This app was created by Hampus Brandtman.
+        If you got any issues, keep them to yourself, kekekekekke.</string>
+    <string name="popup_yes_msg">Yes</string>
+    <string name="popup_No_msg">No</string>
+
+    <!-- Toast - Strings -->
+
+    <string name="toast_error">You need a title and notes to save your Note.</string>
+    <string name="toast_saved">Your note has been successfully saved.</string>
+
+</resources>
